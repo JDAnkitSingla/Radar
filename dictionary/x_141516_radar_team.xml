@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Team" max_length="40" name="x_141516_radar_team" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Manager" mandatory="true" max_length="40" name="u_managerid" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Enter Description" mandatory="true" max_length="40" name="u_teamdesc" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Enter team name" mandatory="true" max_length="40" name="u_teamname" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_moduledesc" label="Enter Module Description" language="en" table="x_141516_radar_module">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_moduledesc</element>
+            <help/>
+            <hint/>
+            <label>Enter Module Description</label>
+            <language>en</language>
+            <name>x_141516_radar_module</name>
+            <plural>Enter Module Descriptions</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-01 06:57:16</sys_created_on>
+            <sys_id>c77de13d4f100300cfa44aa28110c70c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Enter Module Description</sys_name>
+            <sys_package display_value="Radar" source="x_141516_radar">4c59dd314f1003001c4d3fb28110c79d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Radar">4c59dd314f1003001c4d3fb28110c79d</sys_scope>
+            <sys_update_name>sys_documentation_x_141516_radar_module_u_moduledesc_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-01 06:57:16</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

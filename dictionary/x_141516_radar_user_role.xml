@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="User role" max_length="40" name="x_141516_radar_user_role" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="user" label="Role" mandatory="true" max_length="40" name="u_choice_1" type="string">
+            <choice>
+                <element label="User" sequence="0" value="user"/>
+                <element label="Lead" sequence="1" value="lead"/>
+                <element label="Manager" sequence="2" value="manager"/>
+                <element label="Admin" sequence="3" value="admin"/>
+            </choice>
+        </element>
+        <element label="L+1" max_length="32" name="u_radar_lead" reference="sys_user" type="reference"/>
+        <element label="Team" mandatory="true" max_length="32" name="u_radar_team" reference="x_141516_radar_team" type="reference"/>
+        <element label="User" mandatory="true" max_length="32" name="u_radar_user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="u_radar_user"/>
+        </index>
+        <index name="index2">
+            <element name="u_radar_lead"/>
+        </index>
+        <index name="index3">
+            <element name="u_radar_team"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Radar Task" max_length="40" name="x_141516_radar_task" type="collection"/>
+</database>

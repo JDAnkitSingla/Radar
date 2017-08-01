@@ -4,26 +4,26 @@
         <active>true</active>
         <application display_value="Radar">6059d9714f1003001c4d3fb28110c7ea</application>
         <filter/>
-        <name>Radar task</name>
+        <name>Servers</name>
         <order/>
         <path/>
         <path_relative_to_root>false</path_relative_to_root>
-        <roles>x_141516_radar.user</roles>
+        <roles>x_141516_radar.admin</roles>
         <sys_class_name>sys_ui_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-08-01 05:29:10</sys_created_on>
+        <sys_created_on>2017-08-01 05:57:53</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>e059d9714f1003001c4d3fb28110c7ec</sys_id>
+        <sys_id>51efd5f94f100300cfa44aa28110c704</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Radar task</sys_name>
+        <sys_name>Servers</sys_name>
         <sys_package display_value="Radar" source="x_141516_radar">4c59dd314f1003001c4d3fb28110c79d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Radar">4c59dd314f1003001c4d3fb28110c79d</sys_scope>
-        <sys_update_name>sys_ui_module_e059d9714f1003001c4d3fb28110c7ec</sys_update_name>
+        <sys_update_name>sys_ui_module_51efd5f94f100300cfa44aa28110c704</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-08-01 05:29:10</sys_updated_on>
-        <table>x_141516_radar_task</table>
+        <sys_updated_on>2017-08-01 05:57:53</sys_updated_on>
+        <table>x_141516_radar_server</table>
         <uncancelable>false</uncancelable>
         <view_name/>
     </sys_ui_module>

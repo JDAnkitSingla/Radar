@@ -2,7 +2,7 @@
 <database>
     <element label="User role" max_length="40" name="x_141516_radar_user_role" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" default="user" label="Role" mandatory="true" max_length="40" name="u_choice_1" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Role" mandatory="true" max_length="40" name="u_choice_1" type="string">
             <choice>
                 <element label="User" sequence="0" value="user"/>
                 <element label="Lead" sequence="1" value="lead"/>

@@ -2,7 +2,13 @@
 <database>
     <element label="Server" max_length="40" name="x_141516_radar_server" type="collection">
         <element display="true" label="Enter Description" mandatory="true" max_length="1000" name="description" type="string"/>
-        <element label="Enter server name" mandatory="true" max_length="15" name="name" type="string"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Enter server name" mandatory="true" max_length="15" name="name" type="string" unique="true"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string" unique="true"/>
+        <index name="index">
+            <element name="number"/>
+        </index>
+        <index name="index2">
+            <element name="name"/>
+        </index>
     </element>
 </database>

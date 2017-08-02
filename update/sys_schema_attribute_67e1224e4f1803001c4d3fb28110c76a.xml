@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_schema_attribute">
+    <sys_schema_attribute action="INSERT_OR_UPDATE">
+        <applies_to>COLUMN</applies_to>
+        <applies_to_description/>
+        <column_on_table/>
+        <column_type/>
+        <description/>
+        <label>unique</label>
+        <name>u_unique</name>
+        <on_table/>
+        <read_roles/>
+        <remove_roles/>
+        <sys_class_name>sys_schema_attribute</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-02 05:25:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>67e1224e4f1803001c4d3fb28110c76a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>unique</sys_name>
+        <sys_package display_value="Radar" source="x_141516_radar">4c59dd314f1003001c4d3fb28110c79d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Radar">4c59dd314f1003001c4d3fb28110c79d</sys_scope>
+        <sys_update_name>sys_schema_attribute_67e1224e4f1803001c4d3fb28110c76a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-02 05:25:50</sys_updated_on>
+        <update_roles/>
+        <value_description/>
+        <value_type display_value="True/False">17d3ba81bf3320001875647fcf0739dc</value_type>
+    </sys_schema_attribute>
+</record_update>

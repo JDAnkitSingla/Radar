@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Module" max_length="40" name="x_141516_radar_module" type="collection">
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Enter module name" mandatory="true" max_length="40" name="u_module" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string" unique="true"/>
+        <element attributes="u_unique=true,edge_encryption_enabled=true" label="Enter module name" mandatory="true" max_length="40" name="u_module" type="string" unique="true"/>
         <element attributes="edge_encryption_enabled=true" label="Enter Module Description" mandatory="true" max_length="40" name="u_moduledesc" type="string"/>
+        <index name="index">
+            <element name="number"/>
+        </index>
+        <index name="index2">
+            <element name="u_module"/>
+        </index>
     </element>
 </database>

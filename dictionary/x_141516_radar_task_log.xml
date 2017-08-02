@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Task Log" max_length="40" name="x_141516_radar_task_log" type="collection">
+        <element label="Action" mandatory="true" max_length="20" name="action" type="string"/>
+        <element label="Change" max_length="10000" name="change" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string" unique="true"/>
+        <index name="index">
+            <element name="number"/>
+        </index>
+    </element>
+</database>

@@ -52,7 +52,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-08-01 05:57:55</sys_created_on>
-        <sys_id>83d75e714f900300cfa44aa28110c740</sys_id>
+        <sys_id>54d9ea064f180300cfa44aa28110c7cc</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Number</sys_name>
         <sys_package display_value="Radar" source="x_141516_radar">4c59dd314f1003001c4d3fb28110c79d</sys_package>
@@ -60,7 +60,7 @@
         <sys_scope display_value="Radar">4c59dd314f1003001c4d3fb28110c79d</sys_scope>
         <sys_update_name>sys_dictionary_x_141516_radar_server_number</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2017-08-01 10:02:27</sys_updated_on>
+        <sys_updated_on>2017-08-02 05:59:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

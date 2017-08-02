@@ -7,5 +7,8 @@
         <index name="index">
             <element name="number"/>
         </index>
+        <index name="index2">
+            <element name="number"/>
+        </index>
     </element>
 </database>

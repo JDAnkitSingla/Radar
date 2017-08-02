@@ -17,12 +17,15 @@
             <element name="number"/>
         </index>
         <index name="index2">
-            <element name="u_radar_user"/>
+            <element name="number"/>
         </index>
         <index name="index3">
-            <element name="u_radar_lead"/>
+            <element name="u_radar_user"/>
         </index>
         <index name="index4">
+            <element name="u_radar_lead"/>
+        </index>
+        <index name="index5">
             <element name="u_radar_team"/>
         </index>
     </element>

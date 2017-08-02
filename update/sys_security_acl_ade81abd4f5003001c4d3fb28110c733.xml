@@ -12,13 +12,11 @@
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-08-01 10:06:56</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>ade81abd4f5003001c4d3fb28110c733</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_141516_radar_task_log</sys_name>
         <sys_package display_value="Radar" source="x_141516_radar">4c59dd314f1003001c4d3fb28110c79d</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Radar">4c59dd314f1003001c4d3fb28110c79d</sys_scope>
         <sys_update_name>sys_security_acl_ade81abd4f5003001c4d3fb28110c733</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>

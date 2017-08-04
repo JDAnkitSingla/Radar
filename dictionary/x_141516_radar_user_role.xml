@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="User role" max_length="40" name="x_141516_radar_user_role" type="collection">
-        <element attributes="ignore_filter_on_new=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string" unique="true"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string" unique="true"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Role" mandatory="true" max_length="40" name="u_choice_1" type="string">
             <choice>
                 <element label="User" sequence="0" value="user"/>

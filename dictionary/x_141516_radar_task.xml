@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element extends="task" label="Radar Task" max_length="40" name="x_141516_radar_task" type="collection">
+        <element label="Deffer" max_length="40" name="u_deffer" type="boolean"/>
         <element label="Defer" max_length="40" name="u_radar_defer" type="boolean"/>
         <element label="Module" mandatory="true" max_length="32" name="u_task_module" reference="x_141516_radar_module" type="reference"/>
         <element label="Server" mandatory="true" max_length="32" name="u_task_server" reference="x_141516_radar_server" type="reference"/>

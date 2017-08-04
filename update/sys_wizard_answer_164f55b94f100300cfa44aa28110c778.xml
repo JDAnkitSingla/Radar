@@ -10,19 +10,17 @@
         <next_question/>
         <order>100</order>
         <payload_name/>
-        <question display_value="Task" name="Task">42df5b63f5213200a21cc3267c0bd587</question>
+        <question display_value="Task" name="Task">be798f46e00332003399186128118fcb</question>
         <roles/>
         <script/>
         <sys_class_name>sys_wizard_answer</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2017-08-01 05:55:13</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>164f55b94f100300cfa44aa28110c778</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Radar Task</sys_name>
         <sys_package display_value="Radar" source="x_141516_radar">4c59dd314f1003001c4d3fb28110c79d</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Radar">4c59dd314f1003001c4d3fb28110c79d</sys_scope>
         <sys_update_name>sys_wizard_answer_164f55b94f100300cfa44aa28110c778</sys_update_name>
         <sys_updated_by>system</sys_updated_by>

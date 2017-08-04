@@ -19,7 +19,7 @@
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_141516_radar.admin</roles>
+        <roles/>
         <survey/>
         <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
@@ -28,7 +28,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>85cc69fd4f100300cfa44aa28110c7fd</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Modules</sys_name>
         <sys_overrides/>
         <sys_package display_value="Radar" source="x_141516_radar">4c59dd314f1003001c4d3fb28110c79d</sys_package>
@@ -36,7 +36,7 @@
         <sys_scope display_value="Radar">4c59dd314f1003001c4d3fb28110c79d</sys_scope>
         <sys_update_name>sys_app_module_85cc69fd4f100300cfa44aa28110c7fd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-08-01 06:54:08</sys_updated_on>
+        <sys_updated_on>2017-08-03 05:45:27</sys_updated_on>
         <timeline_page/>
         <title>Modules</title>
         <uncancelable>false</uncancelable>

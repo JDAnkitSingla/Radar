@@ -1,26 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_documentation element="u_deffer" label="Deffer" language="en" table="x_141516_radar_task">
+    <sys_documentation element="u_team_manager" label="Manager" language="en" table="x_141516_radar_team">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>u_deffer</element>
+            <element>u_team_manager</element>
             <help/>
             <hint/>
-            <label>Deffer</label>
+            <label>Manager</label>
             <language>en</language>
-            <name>x_141516_radar_task</name>
-            <plural>Deffers</plural>
+            <name>x_141516_radar_team</name>
+            <plural>Managers</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-08-02 09:29:03</sys_created_on>
-            <sys_id>10d9dbc64f580300cfa44aa28110c70b</sys_id>
+            <sys_created_on>2017-08-04 10:34:22</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>f0fb353e4f9003001c4d3fb28110c753</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Deffer</sys_name>
+            <sys_name>Manager</sys_name>
             <sys_package display_value="Radar" source="x_141516_radar">4c59dd314f1003001c4d3fb28110c79d</sys_package>
             <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Radar">4c59dd314f1003001c4d3fb28110c79d</sys_scope>
-            <sys_update_name>sys_documentation_x_141516_radar_task_u_deffer_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_141516_radar_team_u_team_manager_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-08-02 09:29:03</sys_updated_on>
+            <sys_updated_on>2017-08-04 10:34:22</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

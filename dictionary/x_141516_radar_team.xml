@@ -5,5 +5,9 @@
         <element label="Manager" max_length="40" name="u_managerid" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Enter Description" mandatory="true" max_length="40" name="u_teamdesc" type="string"/>
         <element attributes="edge_encryption_enabled=true" display="true" label="Enter team name" mandatory="true" max_length="40" name="u_teamname" type="string"/>
+        <element label="Manager" max_length="32" name="u_team_manager" reference="x_141516_radar_user_role" type="reference"/>
+        <index name="index">
+            <element name="u_team_manager"/>
+        </index>
     </element>
 </database>

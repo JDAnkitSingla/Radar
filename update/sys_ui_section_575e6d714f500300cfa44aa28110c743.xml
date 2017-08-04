@@ -5,13 +5,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-08-01 07:14:27</sys_created_on>
-            <sys_id>366131354f500300cfa44aa28110c795</sys_id>
+            <sys_created_on>2017-08-04 10:34:23</sys_created_on>
+            <sys_id>fcfb353e4f9003001c4d3fb28110c7c9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_141516_radar_team" sys_domain="global" view="Default view">575e6d714f500300cfa44aa28110c743</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-08-01 07:14:27</sys_updated_on>
+            <sys_updated_on>2017-08-04 10:34:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>u_teamname</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-08-01 07:14:27</sys_created_on>
-            <sys_id>b66131354f500300cfa44aa28110c795</sys_id>
+            <sys_created_on>2017-08-04 10:34:23</sys_created_on>
+            <sys_id>b4fb353e4f9003001c4d3fb28110c7ca</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_141516_radar_team" sys_domain="global" view="Default view">575e6d714f500300cfa44aa28110c743</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-08-01 07:14:27</sys_updated_on>
+            <sys_updated_on>2017-08-04 10:34:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,27 +33,27 @@
             <element>u_teamdesc</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-08-01 07:14:27</sys_created_on>
-            <sys_id>3a6131354f500300cfa44aa28110c795</sys_id>
+            <sys_created_on>2017-08-04 10:34:23</sys_created_on>
+            <sys_id>38fb353e4f9003001c4d3fb28110c7ca</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_141516_radar_team" sys_domain="global" view="Default view">575e6d714f500300cfa44aa28110c743</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-08-01 07:14:27</sys_updated_on>
+            <sys_updated_on>2017-08-04 10:34:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_managerid</element>
+            <element>u_team_manager</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-08-01 07:14:27</sys_created_on>
-            <sys_id>ba6131354f500300cfa44aa28110c795</sys_id>
+            <sys_created_on>2017-08-04 10:34:23</sys_created_on>
+            <sys_id>b8fb353e4f9003001c4d3fb28110c7ca</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_141516_radar_team" sys_domain="global" view="Default view">575e6d714f500300cfa44aa28110c743</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-08-01 07:14:27</sys_updated_on>
+            <sys_updated_on>2017-08-04 10:34:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -65,6 +65,7 @@
             <sys_class_name>sys_ui_section</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2017-08-01 07:01:06</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>575e6d714f500300cfa44aa28110c743</sys_id>
@@ -73,6 +74,7 @@
             <sys_overrides/>
             <sys_package display_value="Radar" source="x_141516_radar">4c59dd314f1003001c4d3fb28110c79d</sys_package>
             <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Radar">4c59dd314f1003001c4d3fb28110c79d</sys_scope>
             <sys_update_name>sys_ui_section_575e6d714f500300cfa44aa28110c743</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>

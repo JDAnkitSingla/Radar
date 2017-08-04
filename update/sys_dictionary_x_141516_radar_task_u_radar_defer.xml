@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="u_managerid" table="x_141516_radar_team">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_radar_defer" table="x_141516_radar_task">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
         <attributes/>
         <audit>false</audit>
         <calculation/>
-        <choice/>
+        <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Manager</column_label>
+        <column_label>Defer</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -23,13 +23,13 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>u_managerid</element>
+        <element>u_radar_defer</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <internal_type display_value="Integer">integer</internal_type>
+        <internal_type display_value="">boolean</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>x_141516_radar_team</name>
+        <name>x_141516_radar_task</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -46,18 +46,18 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-08-01 07:05:51</sys_created_on>
+        <sys_created_on>2017-08-04 06:20:49</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>387081fe4f1003001c4d3fb28110c7e9</sys_id>
+        <sys_id>b2e14d324f5003001c4d3fb28110c7c9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Manager</sys_name>
+        <sys_name>Defer</sys_name>
         <sys_package display_value="Radar" source="x_141516_radar">4c59dd314f1003001c4d3fb28110c79d</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Radar">4c59dd314f1003001c4d3fb28110c79d</sys_scope>
-        <sys_update_name>sys_dictionary_x_141516_radar_team_u_managerid</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2017-08-04 06:14:28</sys_updated_on>
+        <sys_update_name>sys_dictionary_x_141516_radar_task_u_radar_defer</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-04 06:20:49</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

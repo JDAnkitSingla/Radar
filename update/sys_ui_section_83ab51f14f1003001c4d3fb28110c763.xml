@@ -5,13 +5,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-08-02 09:29:03</sys_created_on>
-            <sys_id>54d9178e4f580300cfa44aa28110c7e5</sys_id>
+            <sys_created_on>2017-08-04 06:20:50</sys_created_on>
+            <sys_id>3ae1cd324f5003001c4d3fb28110c71a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_141516_radar_task" sys_domain="global" view="Default view">83ab51f14f1003001c4d3fb28110c763</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-08-02 09:29:03</sys_updated_on>
+            <sys_updated_on>2017-08-04 06:20:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>assigned_to</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-08-02 09:29:03</sys_created_on>
-            <sys_id>1cd9178e4f580300cfa44aa28110c7e5</sys_id>
+            <sys_created_on>2017-08-04 06:20:50</sys_created_on>
+            <sys_id>fee1cd324f5003001c4d3fb28110c71a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_141516_radar_task" sys_domain="global" view="Default view">83ab51f14f1003001c4d3fb28110c763</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-08-02 09:29:03</sys_updated_on>
+            <sys_updated_on>2017-08-04 06:20:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,13 +33,13 @@
             <element>priority</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-08-02 09:29:03</sys_created_on>
-            <sys_id>9cd9178e4f580300cfa44aa28110c7e5</sys_id>
+            <sys_created_on>2017-08-04 06:20:50</sys_created_on>
+            <sys_id>72e1cd324f5003001c4d3fb28110c71b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_141516_radar_task" sys_domain="global" view="Default view">83ab51f14f1003001c4d3fb28110c763</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-08-02 09:29:03</sys_updated_on>
+            <sys_updated_on>2017-08-04 06:20:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -47,13 +47,13 @@
             <element>u_task_module</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-08-02 09:29:03</sys_created_on>
-            <sys_id>10d9178e4f580300cfa44aa28110c7e6</sys_id>
+            <sys_created_on>2017-08-04 06:20:50</sys_created_on>
+            <sys_id>f2e1cd324f5003001c4d3fb28110c71b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_141516_radar_task" sys_domain="global" view="Default view">83ab51f14f1003001c4d3fb28110c763</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-08-02 09:29:03</sys_updated_on>
+            <sys_updated_on>2017-08-04 06:20:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -61,13 +61,13 @@
             <element>due_date</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-08-02 09:29:03</sys_created_on>
-            <sys_id>90d9178e4f580300cfa44aa28110c7e6</sys_id>
+            <sys_created_on>2017-08-04 06:20:50</sys_created_on>
+            <sys_id>76e1cd324f5003001c4d3fb28110c71b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_141516_radar_task" sys_domain="global" view="Default view">83ab51f14f1003001c4d3fb28110c763</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-08-02 09:29:03</sys_updated_on>
+            <sys_updated_on>2017-08-04 06:20:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -75,13 +75,13 @@
             <element>.split</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-08-02 09:29:03</sys_created_on>
-            <sys_id>14d9178e4f580300cfa44aa28110c7e6</sys_id>
+            <sys_created_on>2017-08-04 06:20:50</sys_created_on>
+            <sys_id>f6e1cd324f5003001c4d3fb28110c71b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_141516_radar_task" sys_domain="global" view="Default view">83ab51f14f1003001c4d3fb28110c763</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-08-02 09:29:03</sys_updated_on>
+            <sys_updated_on>2017-08-04 06:20:50</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -89,13 +89,13 @@
             <element>parent</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-08-02 09:29:03</sys_created_on>
-            <sys_id>94d9178e4f580300cfa44aa28110c7e6</sys_id>
+            <sys_created_on>2017-08-04 06:20:50</sys_created_on>
+            <sys_id>7ae1cd324f5003001c4d3fb28110c71b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_141516_radar_task" sys_domain="global" view="Default view">83ab51f14f1003001c4d3fb28110c763</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-08-02 09:29:03</sys_updated_on>
+            <sys_updated_on>2017-08-04 06:20:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -103,13 +103,13 @@
             <element>sys_class_name</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-08-02 09:29:03</sys_created_on>
-            <sys_id>18d9178e4f580300cfa44aa28110c7e6</sys_id>
+            <sys_created_on>2017-08-04 06:20:50</sys_created_on>
+            <sys_id>fae1cd324f5003001c4d3fb28110c71b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_141516_radar_task" sys_domain="global" view="Default view">83ab51f14f1003001c4d3fb28110c763</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-08-02 09:29:03</sys_updated_on>
+            <sys_updated_on>2017-08-04 06:20:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -117,13 +117,13 @@
             <element>state</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-08-02 09:29:03</sys_created_on>
-            <sys_id>98d9178e4f580300cfa44aa28110c7e6</sys_id>
+            <sys_created_on>2017-08-04 06:20:50</sys_created_on>
+            <sys_id>7ee1cd324f5003001c4d3fb28110c71b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_141516_radar_task" sys_domain="global" view="Default view">83ab51f14f1003001c4d3fb28110c763</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-08-02 09:29:03</sys_updated_on>
+            <sys_updated_on>2017-08-04 06:20:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -131,27 +131,27 @@
             <element>u_task_server</element>
             <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-08-02 09:29:03</sys_created_on>
-            <sys_id>1cd9178e4f580300cfa44aa28110c7e6</sys_id>
+            <sys_created_on>2017-08-04 06:20:50</sys_created_on>
+            <sys_id>fee1cd324f5003001c4d3fb28110c71b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_141516_radar_task" sys_domain="global" view="Default view">83ab51f14f1003001c4d3fb28110c763</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-08-02 09:29:03</sys_updated_on>
+            <sys_updated_on>2017-08-04 06:20:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_deffer</element>
+            <element>u_radar_defer</element>
             <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-08-02 09:29:03</sys_created_on>
-            <sys_id>9cd9178e4f580300cfa44aa28110c7e6</sys_id>
+            <sys_created_on>2017-08-04 06:20:50</sys_created_on>
+            <sys_id>72e1cd324f5003001c4d3fb28110c71c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_141516_radar_task" sys_domain="global" view="Default view">83ab51f14f1003001c4d3fb28110c763</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-08-02 09:29:03</sys_updated_on>
+            <sys_updated_on>2017-08-04 06:20:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -163,6 +163,7 @@
             <sys_class_name>sys_ui_section</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2017-08-01 05:39:26</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>83ab51f14f1003001c4d3fb28110c763</sys_id>
@@ -171,6 +172,7 @@
             <sys_overrides/>
             <sys_package display_value="Radar" source="x_141516_radar">4c59dd314f1003001c4d3fb28110c79d</sys_package>
             <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Radar">4c59dd314f1003001c4d3fb28110c79d</sys_scope>
             <sys_update_name>sys_ui_section_83ab51f14f1003001c4d3fb28110c763</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>

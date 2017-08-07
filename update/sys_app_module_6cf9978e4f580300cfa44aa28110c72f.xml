@@ -25,7 +25,7 @@
         <mobile_title>Deffer</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_141516_radar_task</name>
-        <order/>
+        <order>100</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -39,7 +39,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6cf9978e4f580300cfa44aa28110c72f</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Deffer</sys_name>
         <sys_overrides/>
         <sys_package display_value="Radar" source="x_141516_radar">4c59dd314f1003001c4d3fb28110c79d</sys_package>
@@ -48,7 +48,7 @@
         <sys_scope display_value="Radar">4c59dd314f1003001c4d3fb28110c79d</sys_scope>
         <sys_update_name>sys_app_module_6cf9978e4f580300cfa44aa28110c72f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-08-04 10:38:26</sys_updated_on>
+        <sys_updated_on>2017-08-07 05:25:16</sys_updated_on>
         <timeline_page/>
         <title>Deffer</title>
         <uncancelable>false</uncancelable>

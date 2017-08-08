@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="TeamImports" max_length="40" name="x_141516_radar_teamimports" type="collection">
+        <element attributes="import_attribute_name=u_teamdesc,edge_encryption_enabled=true" label="Teamdesc" max_length="40" name="u_teamdesc" type="string"/>
+        <element attributes="import_attribute_name=u_teamname,edge_encryption_enabled=true" label="Teamname" max_length="40" name="u_teamname" type="string"/>
+    </element>
+</database>

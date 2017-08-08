@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Server import" max_length="40" name="x_141516_radar_server_import" type="collection">
+        <element attributes="import_attribute_name=description,edge_encryption_enabled=true" label="description" max_length="40" name="u_description" type="string"/>
+        <element attributes="import_attribute_name=name,edge_encryption_enabled=true" label="name" max_length="40" name="u_name" type="string"/>
+    </element>
+</database>

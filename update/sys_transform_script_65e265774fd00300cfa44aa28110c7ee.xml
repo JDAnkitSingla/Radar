@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_transform_script">
+    <sys_transform_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <map display_value="NewTaskTransformMap">c31021374fd00300cfa44aa28110c7e2</map>
+        <order>100</order>
+        <script><![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+
+	// Add your code here
+	alert('Inside script');
+	
+	var _module =  new GlideRecord('x_141516_radar_user_role');
+	_module.query();
+	alert('query executed');
+	while(_module.hasNext()) {
+		alert('in while ');
+		_module.next();
+		if(_module.u_radar_user.user_name == source.assigned_to) {
+			alert('Matched');
+			source.assigned_to = _module.u_radar_user;
+			break;
+		}
+	}	
+})(source, map, log, target);]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-07 11:22:53</sys_created_on>
+        <sys_id>65e265774fd00300cfa44aa28110c7ee</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>onBefore</sys_name>
+        <sys_package display_value="Radar" source="x_141516_radar">4c59dd314f1003001c4d3fb28110c79d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Radar">4c59dd314f1003001c4d3fb28110c79d</sys_scope>
+        <sys_update_name>sys_transform_script_65e265774fd00300cfa44aa28110c7ee</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-08 06:09:18</sys_updated_on>
+        <when>onBefore</when>
+    </sys_transform_script>
+</record_update>

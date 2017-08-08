@@ -3,7 +3,7 @@
     <sys_script action="INSERT_OR_UPDATE">
         <abort_action>false</abort_action>
         <access>package_private</access>
-        <action_delete>true</action_delete>
+        <action_delete>false</action_delete>
         <action_insert>true</action_insert>
         <action_query>false</action_query>
         <action_update>true</action_update>
@@ -19,7 +19,7 @@
         <filter_condition/>
         <is_rest>false</is_rest>
         <message/>
-        <name>Tasklog Entry</name>
+        <name>Check Due Date</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -29,54 +29,38 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var currentDate = new GlideDateTime();
+	var dueDate = new GlideDateTime(current.due_date);
+
+	var today = currentDate.getLocalDate();
+	var istoday = dueDate.getLocalDate();
 	
-	var log = new GlideRecord("x_141516_radar_task_log");
-	
-	//log.get(log_sys_id);
-	log.initialize();
-	log.u_tasklog_parent = current.sys_id;
-	
-	if(current.isNewRecord()) {
-		log.u_tasklog_action = 'Insert';
-		log.u_tasklog_change = 'New Recored Created';
-		
-	} else {
-		log.u_tasklog_action = 'Update';
-		
-		var change = '';
-		
-		if(previous.state != current.state)
-			change = change + 'State changed from ' + previous.state + ' to ' + current.state;
-		if(previous.priority != current.priority)
-			change = change + '\n Priority changed from ' + previous.priority + ' to ' + current.priority;
-		if(previous.assigned_to != current.assigned_to) {
-			gs.info(previous.assigned_to.toString());
-			change = change + '\n Assignee changed from ' + previous.assigned_to.u_radar_user.name + ' to ' +  current.assigned_to.u_radar_user.name;
-		}
-		log.u_tasklog_change = change;
+	if(istoday.compareTo(today) < 0){
+		 gs.addErrorMessage("Due date cannot be in the past.");
+		 current.setAbortAction(true);
 	}
-	
-	log.insert();	
+
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-08-07 06:09:39</sys_created_on>
+        <sys_created_on>2017-08-08 10:14:59</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>8cebd4ff4f1003001c4d3fb28110c785</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_name>Tasklog Entry</sys_name>
+        <sys_id>fc8c1648db2003001e71f7fdbf9619c1</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Check Due Date</sys_name>
         <sys_overrides/>
         <sys_package display_value="Radar" source="x_141516_radar">4c59dd314f1003001c4d3fb28110c79d</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Radar">4c59dd314f1003001c4d3fb28110c79d</sys_scope>
-        <sys_update_name>sys_script_8cebd4ff4f1003001c4d3fb28110c785</sys_update_name>
+        <sys_update_name>sys_script_fc8c1648db2003001e71f7fdbf9619c1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-08-07 11:03:09</sys_updated_on>
+        <sys_updated_on>2017-08-08 10:22:25</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
-    <sys_translated_text action="delete_multiple" query="documentkey=8cebd4ff4f1003001c4d3fb28110c785"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=fc8c1648db2003001e71f7fdbf9619c1"/>
 </record_update>

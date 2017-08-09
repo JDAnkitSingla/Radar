@@ -12,7 +12,8 @@
         </element>
         <element label="L+1" max_length="32" name="u_radar_lead" reference="sys_user" type="reference"/>
         <element label="Team" mandatory="true" max_length="32" name="u_radar_team" reference="x_141516_radar_team" type="reference"/>
-        <element display="true" label="User" mandatory="true" max_length="32" name="u_radar_user" reference="sys_user" type="reference"/>
+        <element label="User" mandatory="true" max_length="32" name="u_radar_user" reference="sys_user" type="reference"/>
+        <element display="true" label="Assigned to email" max_length="40" name="u_userrole_email" type="string"/>
         <index name="index">
             <element name="number"/>
         </index>

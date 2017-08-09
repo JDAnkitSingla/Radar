@@ -5,5 +5,6 @@
         <element attributes="import_attribute_name=u_radar_lead,edge_encryption_enabled=true" label="Radar lead" max_length="40" name="u_radar_lead" type="string"/>
         <element attributes="import_attribute_name=u_radar_team,edge_encryption_enabled=true" label="Radar team" max_length="40" name="u_radar_team" type="string"/>
         <element attributes="import_attribute_name=u_radar_user,edge_encryption_enabled=true" label="Radar user" max_length="40" name="u_radar_user" type="string"/>
+        <element label="Assigned to email" mandatory="true" max_length="100" name="u_userrole_email" type="string"/>
     </element>
 </database>

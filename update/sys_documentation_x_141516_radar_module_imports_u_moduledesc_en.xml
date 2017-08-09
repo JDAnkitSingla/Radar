@@ -1,28 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_documentation element="" label="NewTaskImport" language="en" table="x_141516_radar_newtaskimport">
+    <sys_documentation element="u_moduledesc" label="Moduledesc" language="en" table="x_141516_radar_module_imports">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element/>
+            <element>u_moduledesc</element>
             <help/>
             <hint/>
-            <label>NewTaskImport</label>
+            <label>Moduledesc</label>
             <language>en</language>
-            <name>x_141516_radar_newtaskimport</name>
-            <plural>NewTaskImports</plural>
+            <name>x_141516_radar_module_imports</name>
+            <plural>Moduledescs</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-08-08 07:12:59</sys_created_on>
-            <sys_customer_update>false</sys_customer_update>
-            <sys_id>6d347d484f680300cfa44aa28110c72a</sys_id>
+            <sys_created_on>2017-08-09 06:37:09</sys_created_on>
+            <sys_id>a295f6d04f600300cfa44aa28110c750</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>NewTaskImport</sys_name>
+            <sys_name>Moduledesc</sys_name>
             <sys_package display_value="Radar" source="x_141516_radar">4c59dd314f1003001c4d3fb28110c79d</sys_package>
             <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Radar">4c59dd314f1003001c4d3fb28110c79d</sys_scope>
-            <sys_update_name>sys_documentation_x_141516_radar_newtaskimport__en</sys_update_name>
+            <sys_update_name>sys_documentation_x_141516_radar_module_imports_u_moduledesc_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-08-08 07:12:59</sys_updated_on>
+            <sys_updated_on>2017-08-09 06:37:09</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

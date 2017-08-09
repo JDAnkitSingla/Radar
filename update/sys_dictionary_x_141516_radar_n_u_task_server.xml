@@ -47,17 +47,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-08-07 11:06:36</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
-        <sys_id>2324ee4cdb2003001e71f7fdbf96197f</sys_id>
+        <sys_id>92f1b2dc4f200300cfa44aa28110c7b6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Task server</sys_name>
         <sys_package display_value="Radar" source="x_141516_radar">4c59dd314f1003001c4d3fb28110c79d</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Radar">4c59dd314f1003001c4d3fb28110c79d</sys_scope>
         <sys_update_name>sys_dictionary_x_141516_radar_n_u_task_server</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2017-08-08 10:42:41</sys_updated_on>
+        <sys_updated_on>2017-08-09 06:21:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

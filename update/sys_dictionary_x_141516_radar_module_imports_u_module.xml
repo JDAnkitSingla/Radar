@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="u_task_module" table="x_141516_radar_newtaskimport">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_module" table="x_141516_radar_module_imports">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>import_attribute_name=u_task_module,edge_encryption_enabled=true</attributes>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Task module</column_label>
+        <column_label>Module</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -23,13 +23,13 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>u_task_module</element>
+        <element>u_module</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>x_141516_radar_newtaskimport</name>
+        <name>x_141516_radar_module_imports</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -46,18 +46,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-08-07 11:01:49</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
-        <sys_id>0834ee4cdb2003001e71f7fdbf9619ef</sys_id>
+        <sys_created_on>2017-08-09 06:37:08</sys_created_on>
+        <sys_id>d695f6d04f600300cfa44aa28110c73f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Task module</sys_name>
+        <sys_name>Module</sys_name>
         <sys_package display_value="Radar" source="x_141516_radar">4c59dd314f1003001c4d3fb28110c79d</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Radar">4c59dd314f1003001c4d3fb28110c79d</sys_scope>
-        <sys_update_name>sys_dictionary_x_141516_radar_newtaskimport_u_task_module</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2017-08-08 10:42:41</sys_updated_on>
+        <sys_update_name>sys_dictionary_x_141516_radar_module_imports_u_module</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-09 06:37:08</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

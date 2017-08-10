@@ -48,7 +48,7 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-08-07 09:44:05</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>4324ff60db2003001e71f7fdbf961922</sys_id>
+        <sys_id>2daaf3a44f2003001c4d3fb28110c737</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_141516_radar_newuserimports</sys_name>
         <sys_package display_value="Radar" source="x_141516_radar">4c59dd314f1003001c4d3fb28110c79d</sys_package>
@@ -57,7 +57,7 @@
         <sys_scope display_value="Radar">4c59dd314f1003001c4d3fb28110c79d</sys_scope>
         <sys_update_name>sys_dictionary_x_141516_radar_newuserimports_NULL</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2017-08-10 05:49:04</sys_updated_on>
+        <sys_updated_on>2017-08-10 06:17:23</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -4,7 +4,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_141516_radar_user_role" element="NULL" name="x_141516_radar_user_role" parent="NULL" relationship="NULL" sys_domain="global" view="b24417619422320092c0d40a7bef4629">8e01c5ff4f5003001c4d3fb28110c717</list_id>
+            <list_id display_value="x_141516_radar_user_role" element="NULL" name="x_141516_radar_user_role" parent="NULL" relationship="NULL" sys_domain="global" view="1b2f1723f5213200a21cc3267c0bd580">8e01c5ff4f5003001c4d3fb28110c717</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -43,7 +43,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2017-08-07 08:50:52</sys_updated_on>
             <sys_user/>
-            <view display_value="Reference List" name="sys_ref_list">b24417619422320092c0d40a7bef4629</view>
+            <view display_value="Reference List" name="sys_ref_list">1b2f1723f5213200a21cc3267c0bd580</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

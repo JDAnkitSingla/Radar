@@ -32,7 +32,6 @@
 	
 	var log = new GlideRecord("x_141516_radar_task_log");
 	
-	//log.get(log_sys_id);
 	log.initialize();
 	log.u_tasklog_parent = current.sys_id;
 	
@@ -40,7 +39,7 @@
 		log.u_tasklog_action = 'Insert';
 		log.u_tasklog_change = 'New Recored Created';
 		
-	} else {
+	} else if(current.operation() == "update") {
 		log.u_tasklog_action = 'Update';
 		
 		var change = '';
@@ -49,14 +48,19 @@
 			change = change + 'State changed from ' + previous.state + ' to ' + current.state;
 		if(previous.priority != current.priority)
 			change = change + '\n Priority changed from ' + previous.priority + ' to ' + current.priority;
+		if(previous.u_radar_defer != current.u_radar_defer)
+			change = change +'defer changed from '+previous.u_radar_defer+' to' +current.u_radar_defer;
 		if(previous.assigned_to != current.assigned_to) {
 			gs.info(previous.assigned_to.toString());
 			change = change + '\n Assignee changed from ' + previous.assigned_to.u_radar_user.name + ' to ' +  current.assigned_to.u_radar_user.name;
 		}
 		log.u_tasklog_change = change;
 	}
-	
-	log.insert();	
+	else {
+		log.u_tasklog_action = 'Delete';
+		log.u_tasklog_change = 'Recored deleted';
+	}
+	log.insert();
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -64,7 +68,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8cebd4ff4f1003001c4d3fb28110c785</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Tasklog Entry</sys_name>
         <sys_overrides/>
         <sys_package display_value="Radar" source="x_141516_radar">4c59dd314f1003001c4d3fb28110c79d</sys_package>
@@ -72,7 +76,7 @@
         <sys_scope display_value="Radar">4c59dd314f1003001c4d3fb28110c79d</sys_scope>
         <sys_update_name>sys_script_8cebd4ff4f1003001c4d3fb28110c785</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-08-07 11:03:09</sys_updated_on>
+        <sys_updated_on>2017-08-10 04:31:09</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

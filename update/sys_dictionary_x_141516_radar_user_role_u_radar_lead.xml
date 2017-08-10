@@ -47,15 +47,17 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-08-01 09:48:57</sys_created_on>
-        <sys_id>b80ba7e44f200300cfa44aa28110c760</sys_id>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2624bf60db2003001e71f7fdbf96196b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>L+1</sys_name>
         <sys_package display_value="Radar" source="x_141516_radar">4c59dd314f1003001c4d3fb28110c79d</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Radar">4c59dd314f1003001c4d3fb28110c79d</sys_scope>
         <sys_update_name>sys_dictionary_x_141516_radar_user_role_u_radar_lead</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2017-08-10 05:09:10</sys_updated_on>
+        <sys_updated_on>2017-08-10 05:49:07</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
